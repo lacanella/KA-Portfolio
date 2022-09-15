@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #338af3;
+  --secondary-color: #fcda44;
+}
+.body-all {
+  margin: 20px;
+  text-align: center;
+  display: block;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.links {
+  margin: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+button {
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  border: 5px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+.conme {
+  background-color: var(--primary-color);
+}
+.contactme {
+  color: var(--secondary-color);
+}
+.aboutme {
+  color: var(--primary-color);
+}
+.about {
+  background-color: var(--secondary-color);
+}
+.contanier {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 20px;
+}
